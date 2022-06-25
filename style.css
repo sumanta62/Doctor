@@ -359,16 +359,7 @@ html {
 .card-menu p span{
   float: right;
 }
-.learn .btn{
-  background-color: rgb(6, 127, 143);
-  margin-left: 23px;
-  color: rgb(0, 0, 0);
-  transition: 0.5s;
-}
-.Emergency .card .learn .btn:hover {
- background-color: #679244;
- color: #f0e9e9;
-}
+
 .Emergency .card:hover p {
   color: rgb(0, 0, 0);
 }
@@ -376,11 +367,7 @@ html {
   color: rgb(0, 0, 0);
  
 }
-.Emergency .card:hover .btn {
-  color: rgb(241, 241, 241);
-  background-color: #16af49;
- 
-}
+
 .Emergency .card{
   background-color: rgb(6, 127, 143);
   margin-left: 23px;
@@ -403,6 +390,19 @@ background-color: #e5e9ee;
 }
 .about-title p{
  color: #4e4e4e;
+}
+.about-title .learn{
+  margin: 30px 0;
+
+}
+.about-title .learn .btn{
+  background-color: rgb(18 102 241);
+  color: white;
+  transition: 0.5s;
+}
+.about-title .learn .btn:hover{
+  background-color: rgba(20, 187, 39, 0.5);
+  color: rgb(0, 0, 0);
 }
 .check-boxes{
   display: flex;
@@ -489,7 +489,7 @@ background-color: #e5e9ee;
   margin: auto;
 }
 .services-menu-titile .learn .btn{
-  background-color: rgb(6, 127, 143);
+  background-color: rgb(18 102 241);
   margin: 0 !important;
   color: #fff;
   transition: 0.5s;
@@ -508,14 +508,14 @@ background-color: #e5e9ee;
 }
 
 .services-menu-titile .card:hover .learn .btn{
- background-color: #3552a3;
+  background-color: rgb(59, 97, 155);
  color: #dee4eb;
 }
 .services-menu-titile .card:hover p{
  color: #dee4eb;
 }
 .services-menu-titile .card .learn .btn:hover {
-  background-color: #219b11;
+  background-color: #d4e0d2;
   color: rgb(0, 0, 0);
 }
 
@@ -540,7 +540,7 @@ background-color: #e5e9ee;
   margin-top: 20px;
   margin-left: 20px;
   transition: 0.5s;
-  background-color: #067f8f;
+  background-color: rgb(18 102 241);
 }
 .potfoliyo button:hover{
   background-color: rgba(20, 187, 39, 0.5);
@@ -645,9 +645,10 @@ position: relative;
   margin-top: 22px;
   margin-left: -19px;
 }
-.counter-section .counter-number h4{
+.counter-section .counter{
   padding: 25px 0 10px 0;
   font-weight: bold;
+  font-size: 30px;
   color: rgb(245, 241, 241);
 }
 .counter-section .count h6{  

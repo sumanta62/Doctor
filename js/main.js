@@ -101,6 +101,14 @@
       })
     }
   
+// ********************* Counter Number
+
+$('.counter').counterUp({
+  delay: 10,
+  time: 1000
+});
+// **********************
+  
     /**
      * Toggle .header-scrolled class to #header when page is scrolled
      */
