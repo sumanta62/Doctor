@@ -193,7 +193,7 @@ html {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(233, 224, 224);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -366,7 +366,7 @@ html {
   transition: 0.5s;
 }
 .Emergency .card .learn .btn:hover {
- background-color: #ccb322;
+ background-color: #679244;
  color: #f0e9e9;
 }
 .Emergency .card:hover p {
@@ -465,7 +465,7 @@ background-color: #e5e9ee;
   transition: 0.9s;
  }
 .services-menu-titile .card{
- background-color: #afc2d3;
+ background-color: #dde5ec;
  transition: 0.9s;
 }
 .services-menu-titile .card p{
@@ -495,7 +495,7 @@ background-color: #e5e9ee;
   transition: 0.5s;
 }
 .services-menu-titile .card:hover{
- background-color: #18972d;
+ background-color: #29a03d;
  background-position: center right;
  color: white;
  z-index: 1;
@@ -508,14 +508,14 @@ background-color: #e5e9ee;
 }
 
 .services-menu-titile .card:hover .learn .btn{
- background-color: #1c3a8d;
+ background-color: #3552a3;
  color: #dee4eb;
 }
 .services-menu-titile .card:hover p{
  color: #dee4eb;
 }
 .services-menu-titile .card .learn .btn:hover {
-  background-color: #16be00;
+  background-color: #219b11;
   color: rgb(0, 0, 0);
 }
 
@@ -575,11 +575,16 @@ background-color: #e5e9ee;
   align-items: center;
  color: rgb(255, 255, 255);
  font-size: 25px;
+ border: 1px solid gray;
  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
  font-weight: bold;
  transition: 0.9s;
  z-index: 1;
  text-align: center;
+}
+.work-img .hover-icon i{
+  padding: 6px;
+  border-radius: 1px solid gray;
 }
 .work-img:hover img {
   transform: scale(1.3);
@@ -643,7 +648,13 @@ position: relative;
 .counter-section .counter-number h4{
   padding: 25px 0 10px 0;
   font-weight: bold;
+  color: rgb(245, 241, 241);
 }
+.counter-section .count h6{  
+  color: rgb(228, 217, 217);
+}
+
+
 /* counter section end */
 .testimonials {
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img/1.jpg');
